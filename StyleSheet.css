@@ -1,0 +1,113 @@
+/* -- Setup CSS --*/
+* {
+	margin:0;
+	padding:0;	
+	font-family: Calibri;
+}
+			
+input {
+	width:75%;
+	height:50%;
+	font-size: 1.4em;
+}
+
+textarea {
+	font-size: 1.4em;
+	
+}
+
+/* -- Form Container CSS --*/
+			
+.loginForm {
+	margin:auto;
+	width:750px;
+	height:auto;
+	border: black solid 1px;
+}
+
+.registrationForm {
+	margin: auto;
+	width:750px;
+	height:675px;
+	border: black solid 1px;
+}
+
+.postMessageForm {
+	margin:auto;
+	width:800px;
+	height:500px;
+}
+
+/* -- Form Layout CSS --*/			
+
+.formRow {
+	float: left;
+	width:100%;
+	height:75px;
+	text-align: center;
+}
+
+.formRowHidden {
+	float: left;
+	width:100%;
+	height:75px;
+	text-align: center;
+}
+			
+.rowLeft {
+	float:left;
+	width:250px;
+	height: 100%;
+}
+			
+.rowRight {
+	float:left;
+	width:500px;
+	height:100%;
+	text-align: left;
+}
+
+/* -- Page Layout and Header CSS --*/
+
+.container {
+	margin:auto;
+	width:800px;
+	height:auto;
+}
+
+.linksRow {
+	width:100%;
+	height:50px;
+}
+
+.link {
+	float:left;
+	padding:10px 25px;
+	width:auto;
+	height:30px;
+}
+
+/* -- Message Board CSS -- */
+
+.messageContainer {
+	padding: 15px 0;
+	width:100%;
+	height:auto;
+	
+}
+
+.messageInfoTop {
+	padding: 15px 0;
+	width:100%;
+	height:20px;
+	border: black solid 1px;
+}
+
+th {
+    border: 3px solid black;
+}
+
+td{    
+	border-bottom: 1px solid black;
+	padding:50px;
+}
